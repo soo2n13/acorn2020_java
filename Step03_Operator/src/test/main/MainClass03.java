@@ -27,6 +27,11 @@ public class MainClass03 {
 		
 		boolean result7 = name == null; //true
 		boolean result8 = name != null; //false
+		
+		String name1=new String("lee");
+		String name2=new String("lee");
+		boolean result9=name1==name2;
+		boolean result10=new String("lee").equals(new String("lee"));
 	}
 }
 

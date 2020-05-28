@@ -11,7 +11,7 @@ package test.main;
 public class MainClass06 {
 	public static void main(String[] args) {
 		boolean isWait=false;
-		String result = isWait ? "기다려" : "기다리지마";
+		String result = isWait ? "기다려" : "기다리지마"; // 삼항 연산자 (조건문?true 값: false 값)
 		System.out.println(result);
 		
 		String result2=null;
