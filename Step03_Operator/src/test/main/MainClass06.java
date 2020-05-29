@@ -1,24 +1,25 @@
 package test.main;
 /*
- *  [ ¿¬»êÀÚ ]
- *  
- *  6. 3Ç× ¿¬»êÀÚ
- *  
- *  - Çü½Ä 
- *  
- *  boolean type ? °ª1 : °ª2
+ *  6. 3í•­ ì—°ì‚°ì í…ŒìŠ¤íŠ¸
  */
 public class MainClass06 {
 	public static void main(String[] args) {
 		boolean isWait=false;
+<<<<<<< HEAD
 		String result = isWait ? "±â´Ù·Á" : "±â´Ù¸®Áö¸¶"; // »ïÇ× ¿¬»êÀÚ (Á¶°Ç¹®?true °ª: false °ª)
+=======
+		// isWait ì´ true ë©´ "ê¸°ë‹¤ë ¤ìš”" ê°€ ëŒ€ì…ë˜ê³  false ë©´ "ê¸°ë‹¤ë¦¬ì§€ ì•Šì•„ìš”" ê°€ ëŒ€ì…ëœë‹¤.
+		String result = isWait ? "ê¸°ë‹¤ë ¤ìš”" : "ê¸°ë‹¤ë¦¬ì§€ ì•Šì•„ìš”";
+		
+>>>>>>> refs/remotes/upstream/master
 		System.out.println(result);
 		
+		//ìœ„ì˜ 3í•­ ì—°ì‚°ìëŠ” ì•„ë˜ì™€ ê°™ì´ if ~ else ë¬¸ê³¼ ê°™ì€ ë¡œì§ì´ë‹¤. 
 		String result2=null;
 		if(isWait) {
-			result2="±â´Ù·Á";
+			result2="ê¸°ë‹¤ë ¤ìš”";
 		}else {
-			result2="±â´Ù¸®Áö¸¶";
+			result2="ê¸°ë‹¤ë¦¬ì§€ ì•Šì•„ìš”";
 		}
 		System.out.println(result2);
 	}

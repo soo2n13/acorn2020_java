@@ -1,10 +1,8 @@
 package test.main;
 /*
- *  [ ¿¬»êÀÚ ]
+ *  5. ëŒ€ì…ì—°ì‚°ì í…ŒìŠ¤íŠ¸
  *  
- *  5. ´ëÀÔ ¿¬»êÀÚ
- *  
- *  Á¾·ù: =, +=, -=, *=, /=, %=
+ *  +=, -=, *=, /=, %= 
  */
 public class MainClass05 {
 	public static void main(String[] args) {
