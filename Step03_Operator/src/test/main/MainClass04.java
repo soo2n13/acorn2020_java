@@ -4,35 +4,28 @@ package test.main;
  */
 public class MainClass04 {
 	public static void main(String[] args) {
-<<<<<<< HEAD
-		//or ¿¬»ê
-		boolean result1 = false || false; //false // µÎ ºÎºÐÁß ÇÏ³ª¶óµµ true¸é true ¸®ÅÏ(or ¿¬»êÀÚ (ÀÌ°Å³ª))
-=======
-		// or ì—°ì‚° 
+		//or ï¿½ï¿½ï¿½ï¿½
+		boolean result1 = false || false; //false // ï¿½ï¿½ ï¿½Îºï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ trueï¿½ï¿½ true ï¿½ï¿½ï¿½ï¿½(or ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½Ì°Å³ï¿½))
+// or ì—°ì‚° 
 		boolean result1 = false || false; //false
->>>>>>> refs/remotes/upstream/master
 		boolean result2 = false || true; //true
 		boolean result3 = true || false; //true
 		boolean result4 = true || true; //true
-<<<<<<< HEAD
 		
-		//and ¿¬»ê
-		boolean result5 = false && false; //false  // µÎ ºÎºÐ´Ù true¸é true ¸®ÅÏ(and ¿¬»êÀÚ (ÀÌ¸ç))
-=======
+		//and ï¿½ï¿½ï¿½ï¿½
+		boolean result5 = false && false; //false  // ï¿½ï¿½ ï¿½ÎºÐ´ï¿½ trueï¿½ï¿½ true ï¿½ï¿½ï¿½ï¿½(and ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½Ì¸ï¿½))
+
 		// and ì—°ì‚°
 		boolean result5 = false && false; //false
->>>>>>> refs/remotes/upstream/master
+
 		boolean result6 = false && true; //false
 		boolean result7 = true && false; //false
 		boolean result8 = true && true; //true
-<<<<<<< HEAD
 		
-		//not ¿¬»ê
-		boolean result9 = !true; //!true(true°¡ ¾Æ´Ñ= false)
-=======
+		//not ï¿½ï¿½ï¿½ï¿½
+		boolean result9 = !true; //!true(trueï¿½ï¿½ ï¿½Æ´ï¿½= false)
 		// not ì—°ì‚°
 		boolean result9 = !true; //false
->>>>>>> refs/remotes/upstream/master
 		boolean result19 = !false; //true
 		
 		boolean isRun=false;
